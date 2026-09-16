@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://www.xiaoheiribao.com/logo.png" width="88" alt="Xiaohei Daily Assistant logo" />
+<img src="assets/images/logo.png" width="88" alt="Xiaohei Daily Assistant logo" />
 
 # Xiaohei Daily Assistant · 小黑日报助手
 
@@ -218,38 +218,38 @@ Learn more: [Xiaohei Bot product page](https://www.xiaoheiribao.com/bot/) · [Xi
 
 ## Screenshots
 
-These images are linked directly from the official website's assets. Interfaces may vary by installed version.
+These screenshots come from the official website and are stored in this repository. Interfaces may vary by installed version.
 
-![Xiaohei Daily Assistant: today's work overview](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E9%A6%96%E9%A1%B5.png)
+![Xiaohei Daily Assistant: today's work overview](assets/images/overview.png)
 
 <details>
 <summary>Show timeline, reports, tasks, statistics, and Bot screens</summary>
 
 ### Work timeline
 
-![Work timeline](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E5%B7%A5%E4%BD%9C%E6%97%B6%E9%97%B4%E7%BA%BF.png)
+![Work timeline](assets/images/work-timeline.png)
 
 ### Report generation
 
-![Daily, weekly, and monthly report generation](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E7%94%9F%E6%88%90%E6%8A%A5%E5%91%8A.png)
+![Daily, weekly, and monthly report generation](assets/images/report-generation.png)
 
 ### Task management
 
-![Task management](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E5%BE%85%E5%8A%9E.png)
+![Task management](assets/images/tasks.png)
 
 ### Application activity
 
-![Application usage statistics](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E5%BA%94%E7%94%A8%E8%AE%B0%E5%BD%95.png)
+![Application usage statistics](assets/images/app-activity.png)
 
 ### Heatmap
 
-![Work heatmap](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E7%83%AD%E5%8A%9B%E5%9B%BE.png)
+![Work heatmap](assets/images/heatmap.png)
 
 ### Xiaohei Bot
 
-![Create your AI work partner](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E5%B0%8F%E9%BB%91bot%E5%88%9B%E5%BB%BA%E6%96%B0bot.png)
+![Create your AI work partner](assets/images/bot-creation.png)
 
-![Suggested Xiaohei Bot roles](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E5%B0%8F%E9%BB%91bot%E5%B8%B8%E7%94%A8%E8%A7%92%E8%89%B2%E6%8E%A8%E8%8D%90.png)
+![Suggested Xiaohei Bot roles](assets/images/bot-roles.png)
 
 </details>
 
@@ -351,7 +351,7 @@ According to the official website, 上海听悟智能科技有限公司 (Shangha
 | Ariza | Core developer; full-stack development and architecture implementation |
 | Wayne | Core developer; desktop application development |
 
-The website displays an [electronic copyright certificate](https://www.xiaoheiribao.com/software-copyright-certificate.jpg) and a [software copyright certificate](https://www.xiaoheiribao.com/software-copyright-blockchain.jpg).
+The website displays an [electronic copyright certificate](assets/images/software-copyright-certificate.jpg) and a [software copyright certificate](assets/images/software-copyright-blockchain.jpg).
 
 | Resource | Link |
 | --- | --- |

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://www.xiaoheiribao.com/logo.png" width="88" alt="小黑日报助手 Logo" />
+<img src="assets/images/logo.png" width="88" alt="小黑日报助手 Logo" />
 
 # 小黑日报助手 · Xiaohei Daily Assistant
 
@@ -218,38 +218,38 @@ v1.7.2 新增好友私人备注，并优化最近联系人和待办搜索，让�
 
 ## 界面预览
 
-以下图片直接引用官网展示资源；具体界面以安装版本为准。
+以下图片来自官网展示素材，已保存在本仓库中；具体界面以安装版本为准。
 
-![小黑日报助手：今日工作概览](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E9%A6%96%E9%A1%B5.png)
+![小黑日报助手：今日工作概览](assets/images/overview.png)
 
 <details>
 <summary>展开查看时间线、报告、待办、统计与 Bot 界面</summary>
 
 ### 工作时间线
 
-![工作时间线](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E5%B7%A5%E4%BD%9C%E6%97%B6%E9%97%B4%E7%BA%BF.png)
+![工作时间线](assets/images/work-timeline.png)
 
 ### 生成报告
 
-![日报、周报与月报生成](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E7%94%9F%E6%88%90%E6%8A%A5%E5%91%8A.png)
+![日报、周报与月报生成](assets/images/report-generation.png)
 
 ### 待办管理
 
-![待办管理](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E5%BE%85%E5%8A%9E.png)
+![待办管理](assets/images/tasks.png)
 
 ### 应用记录
 
-![应用使用统计](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E5%BA%94%E7%94%A8%E8%AE%B0%E5%BD%95.png)
+![应用使用统计](assets/images/app-activity.png)
 
 ### 热力图
 
-![工作热力图](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E7%83%AD%E5%8A%9B%E5%9B%BE.png)
+![工作热力图](assets/images/heatmap.png)
 
 ### 小黑 Bot
 
-![创建你的 AI 工作伙伴](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E5%B0%8F%E9%BB%91bot%E5%88%9B%E5%BB%BA%E6%96%B0bot.png)
+![创建你的 AI 工作伙伴](assets/images/bot-creation.png)
 
-![小黑 Bot 常用角色推荐](https://xiaoheiribao.tos-cn-shanghai.volces.com/rjjt/%E5%B0%8F%E9%BB%91bot%E5%B8%B8%E7%94%A8%E8%A7%92%E8%89%B2%E6%8E%A8%E8%8D%90.png)
+![小黑 Bot 常用角色推荐](assets/images/bot-roles.png)
 
 </details>
 
@@ -351,7 +351,7 @@ v1.7.2 的更新流程会先提示新版本，点击“立即更新”后才下�
 | Ariza | 核心开发；全栈开发与架构实现 |
 | Wayne | 核心开发；桌面端开发与建设 |
 
-官网展示了[电子版权认证证书](https://www.xiaoheiribao.com/software-copyright-certificate.jpg)与[软件著作权认证证书](https://www.xiaoheiribao.com/software-copyright-blockchain.jpg)。
+官网展示了[电子版权认证证书](assets/images/software-copyright-certificate.jpg)与[软件著作权认证证书](assets/images/software-copyright-blockchain.jpg)。
 
 | 官方入口 | 链接 |
 | --- | --- |
