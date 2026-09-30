@@ -10,24 +10,24 @@
 
 **简体中文** · [English](README.en.md)
 
-[官方网站](https://www.xiaoheiribao.com/) · [下载最新版本](https://github.com/shjiyue/xiaoheiribao/releases/latest) · [小黑 Bot](https://www.xiaoheiribao.com/bot/) · [使用手册](https://www.xiaoheiribao.com/docs/) · [全部版本](https://github.com/shjiyue/xiaoheiribao/releases)
+[官方网站](https://www.xiaoheiribao.com/) · [下载最新版本](https://github.com/shjiyue/xiaoheiribao/releases/latest) · [超能伙伴（原小黑 Bot）](https://www.xiaoheiribao.com/bot/) · [使用手册](https://www.xiaoheiribao.com/docs/) · [全部版本](https://github.com/shjiyue/xiaoheiribao/releases)
 
 </div>
 
 ---
 
-小黑日报助手是一款面向 **Windows 和 macOS** 的 AI 桌面工作助手。它将自动记录、AI 理解、日报周报、待办和小黑 Bot 连接起来，帮助你把零散的工作过程整理成可回顾的事实、可交付的报告和可以继续推进的行动。
+小黑日报助手是一款面向 **Windows 和 macOS** 的 AI 桌面工作助手。它将自动记录、AI 理解、日报周报、待办和超能伙伴（原小黑 Bot）连接起来，帮助你把零散的工作过程整理成可回顾的事实、可交付的报告和可以继续推进的行动。
 
 **本仓库提供产品介绍、使用指引与下载入口。所有安装包下载链接均直接指向业务发布仓库 [shjiyue/xiaoheiribao](https://github.com/shjiyue/xiaoheiribao/releases) 的 Release 附件，本仓库不重复托管安装包。**
 
-> 版本与资料核对日期：**2026-09-16（北京时间）**。当前最新正式版为 **v1.7.2**。固定版本链接适合下载指定版本，后续新版本请查看[最新 Release](https://github.com/shjiyue/xiaoheiribao/releases/latest)。官网标注的微信小程序仍为“即将上线”。
+> 版本与下载核对日期：**2026-09-30（北京时间）**。当前最新正式版为 **v1.7.4**，小黑 Bot 已更名为“超能伙伴”，已有角色和会话可继续使用。固定版本链接适合下载指定版本，后续新版本请查看[最新 Release](https://github.com/shjiyue/xiaoheiribao/releases/latest)。其余官网资料核对日期为 **2026-09-16**，当时微信小程序标注为“即将上线”。
 
 ## 目录
 
 - [下载与安装](#download)
-- [最新更新：v1.7.2](#updates)
+- [最新更新：v1.7.4](#updates)
 - [产品能力](#features)
-- [小黑 Bot：你的 AI 工作伙伴](#bot)
+- [超能伙伴（原小黑 Bot）：你的 AI 工作伙伴](#bot)
 - [完整工作流程与使用场景](#workflow)
 - [界面预览](#screenshots)
 - [隐私、数据与权限](#privacy)
@@ -40,9 +40,9 @@
 
 ## 下载与安装
 
-**最新正式版：v1.7.2 · 发布于 2026-09-15 18:07（北京时间 / UTC+8）**
+**最新正式版：v1.7.4 · 发布于 2026-09-30 16:37（北京时间 / UTC+8）**
 
-[查看该版本完整发布说明](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.2) · [始终查看最新版本](https://github.com/shjiyue/xiaoheiribao/releases/latest)
+[查看该版本完整发布说明](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.4) · [始终查看最新版本](https://github.com/shjiyue/xiaoheiribao/releases/latest)
 
 ### 推荐安装包
 
@@ -50,9 +50,9 @@
 
 | 平台 | 下载文件 | 大小 |
 | --- | --- | --- |
-| Windows | [XiaoheiDailyAssistant-Setup-1.7.2.exe](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-Setup-1.7.2.exe) | 165.1 MiB |
-| macOS · Apple 芯片（M 系列） | [XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg) | 297.1 MiB |
-| macOS · Intel 芯片 | [XiaoheiDailyAssistant-1.7.2-mac-x64.dmg](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-x64.dmg) | 305.0 MiB |
+| Windows | [XiaoheiDailyAssistant-Setup-1.7.4.exe](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-Setup-1.7.4.exe) | 193.7 MiB |
+| macOS · Apple 芯片（M 系列） | [XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg) | 284.2 MiB |
+| macOS · Intel 芯片 | [XiaoheiDailyAssistant-1.7.4-mac-x64.dmg](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-1.7.4-mac-x64.dmg) | 292.5 MiB |
 
 - **Windows：** 下载 `.exe` 后运行安装程序，按向导完成安装。
 - **Mac Apple 芯片：** 选择 `mac-arm64.dmg`。适用于“关于本机”中显示 Apple M 系列芯片的 Mac。
@@ -65,14 +65,14 @@
 
 | 平台 | 下载文件 | 大小 |
 | --- | --- | --- |
-| Windows | [XiaoheiDailyAssistant-Setup-1.7.2.exe.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-Setup-1.7.2.exe.zip) | 164.8 MiB |
-| macOS · Apple 芯片（M 系列） | [XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg.zip) | 296.3 MiB |
-| macOS · Intel 芯片 | [XiaoheiDailyAssistant-1.7.2-mac-x64.dmg.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-x64.dmg.zip) | 304.2 MiB |
+| Windows | [XiaoheiDailyAssistant-Setup-1.7.4.exe.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-Setup-1.7.4.exe.zip) | 193.5 MiB |
+| macOS · Apple 芯片（M 系列） | [XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg.zip) | 283.1 MiB |
+| macOS · Intel 芯片 | [XiaoheiDailyAssistant-1.7.4-mac-x64.dmg.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-1.7.4-mac-x64.dmg.zip) | 291.4 MiB |
 
 ### 下载完整性校验
 
-- 原始安装包及相关附件：[SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/SHA256SUMS.txt)。
-- 上述三份安装包 ZIP：[INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/INSTALLER-ZIP-SHA256SUMS.txt)。
+- 原始安装包及相关附件：[SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/SHA256SUMS.txt)。
+- 上述三份安装包 ZIP：[INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/INSTALLER-ZIP-SHA256SUMS.txt)。
 
 <details>
 <summary>查看推荐安装包的 SHA-256 与校验命令</summary>
@@ -81,20 +81,20 @@
 
 | 文件 | SHA-256 |
 | --- | --- |
-| `XiaoheiDailyAssistant-Setup-1.7.2.exe` | `6a8dd72d264f703fbcc31686073e924b09c60a461795aba59cbb3be1aca30ec6` |
-| `XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg` | `fc4c57b0b35bd06621ee4527048e3a393887f4b4b51d354c3e9719afd4e5c418` |
-| `XiaoheiDailyAssistant-1.7.2-mac-x64.dmg` | `8b442e2af6148cc6ace35db5f70e5e035cee5e53cac4176e814b783827426835` |
+| `XiaoheiDailyAssistant-Setup-1.7.4.exe` | `4f8966a71881107e848de05d74e63cefeaac5fd6af6e723d7e161f67af4b147e` |
+| `XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg` | `d79a800c27a1c2f9f1aa4e1181e4871af13fcc0b08718be0ce79913f3c326a19` |
+| `XiaoheiDailyAssistant-1.7.4-mac-x64.dmg` | `09683e8eb66d26b0f2d01c82e9115381742fe0be6691ec4bbde8a64d506fc923` |
 
 Windows PowerShell（在下载目录执行）：
 
 ```powershell
-Get-FileHash .\XiaoheiDailyAssistant-Setup-1.7.2.exe -Algorithm SHA256
+Get-FileHash .\XiaoheiDailyAssistant-Setup-1.7.4.exe -Algorithm SHA256
 ```
 
 macOS（以 Apple 芯片安装包为例，在下载目录执行）：
 
 ```bash
-shasum -a 256 XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg
+shasum -a 256 XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg
 ```
 
 将输出值与上表或对应校验文件对照；ZIP 文件应使用 ZIP 校验清单。
@@ -103,7 +103,11 @@ shasum -a 256 XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg
 
 <a id="updates"></a>
 
-## 最新更新：v1.7.2
+## 最新更新：v1.7.4
+
+根据官方 [v1.7.4 发布说明](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.4)，小黑 Bot 更名为“超能伙伴”，已有角色和会话可继续使用。完整变化请查看该版本发布说明。
+
+### v1.7.2 历史更新
 
 以下内容同步自业务仓库的 [v1.7.2 发布说明](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.2)。
 
@@ -164,13 +168,13 @@ v1.7.2 新增好友私人备注，并优化最近联系人和待办搜索，让�
 
 ### 微信小程序（即将上线）
 
-官网规划的小程序将支持查看时间线、报告、应用统计和热力图，搜索记录、处理待办与分享成果。**截至本 README 核对日期，官网仍标注“即将上线”，这里不提供已上线移动客户端的下载承诺。**
+官网规划的小程序将支持查看时间线、报告、应用统计和热力图，搜索记录、处理待办与分享成果。**截至 2026-09-16 官网资料核对时，官网标注“即将上线”，这里不提供已上线移动客户端的下载承诺。**
 
 <a id="bot"></a>
 
-## 小黑 Bot：你的 AI 工作伙伴
+## 超能伙伴（原小黑 Bot）：你的 AI 工作伙伴
 
-小黑 Bot 将工作记录、资料、对话、工具和任务连接起来。可以用一句话描述职责，或从常用角色中添加助手，让写作、研究、编程和日常工作各有分工。
+超能伙伴（原小黑 Bot）将工作记录、资料、对话、工具和任务连接起来。可以用一句话描述职责，或从常用角色中添加助手，让写作、研究、编程和日常工作各有分工。
 
 | 能力 | 你可以怎样使用 |
 | --- | --- |
@@ -218,7 +222,7 @@ v1.7.2 新增好友私人备注，并优化最近联系人和待办搜索，让�
 
 ## 界面预览
 
-以下图片来自官网展示素材，已保存在本仓库中；具体界面以安装版本为准。
+以下图片为此前保存的官网展示素材，并非 v1.7.4 最新界面；其中“小黑 Bot”现已更名为“超能伙伴”，具体界面以安装版本为准。
 
 ![小黑日报助手：今日工作概览](assets/images/overview.png)
 
@@ -277,7 +281,7 @@ v1.7.2 新增好友私人备注，并优化最近联系人和待办搜索，让�
 3. **设定记录范围：** 配置间隔、显示器、排除软件与网站、闲置暂停规则，再开启记录。
 4. **确认记录正常：** 正常工作一段时间后，在“今日工作”和“工作时间线”检查记录、摘要和分类。
 5. **生成第一份报告：** 选择日期范围、模板、语言和模型，核对结果后保存、复制或导出。
-6. **创建小黑 Bot：** 选择角色，说明任务和输出要求；需要共享资料时，可在 Bot 设置中配置公共空间。
+6. **创建超能伙伴（原小黑 Bot）：** 选择角色，说明任务和输出要求；需要共享资料时，可在 Bot 设置中配置公共空间。
 
 完整教程：[快速入门](https://www.xiaoheiribao.com/docs/manual/chapter-2) · [核心功能操作指南](https://www.xiaoheiribao.com/docs/manual/chapter-3) · [实践教程](https://www.xiaoheiribao.com/docs/manual/chapter-5)。
 
@@ -315,7 +319,7 @@ v1.7.2 的更新流程会先提示新版本，点击“立即更新”后才下�
 
 ### v1.7.1
 
-业务仓库还保留 **v1.7.1（2026-09-15 发布）**。新安装建议优先使用 v1.7.2；如需指定旧版，可使用以下原始附件。
+业务仓库还保留 **v1.7.1（2026-09-15 发布）**。新安装建议优先使用 v1.7.4；如需指定旧版，可使用以下原始附件。
 
 | 平台 | 下载文件 | 大小 |
 | --- | --- | --- |
