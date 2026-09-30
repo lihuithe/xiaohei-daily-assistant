@@ -10,24 +10,24 @@ Understand what you worked on, turn it into useful reports, and plan what comes 
 
 [简体中文](README.md) · **English**
 
-[Website](https://www.xiaoheiribao.com/) · [Latest release](https://github.com/shjiyue/xiaoheiribao/releases/latest) · [Xiaohei Bot](https://www.xiaoheiribao.com/bot/) · [User guide](https://www.xiaoheiribao.com/docs/) · [All releases](https://github.com/shjiyue/xiaoheiribao/releases)
+[Website](https://www.xiaoheiribao.com/) · [Latest release](https://github.com/shjiyue/xiaoheiribao/releases/latest) · [Super Companion (formerly Xiaohei Bot)](https://www.xiaoheiribao.com/bot/) · [User guide](https://www.xiaoheiribao.com/docs/) · [All releases](https://github.com/shjiyue/xiaoheiribao/releases)
 
 </div>
 
 ---
 
-Xiaohei Daily Assistant is an AI desktop work assistant for **Windows and macOS**. It connects activity recording, AI understanding, daily and weekly reports, tasks, and Xiaohei Bots, helping you turn scattered work activity into a factual history, usable reports, and follow-up actions.
+Xiaohei Daily Assistant is an AI desktop work assistant for **Windows and macOS**. It connects activity recording, AI understanding, daily and weekly reports, tasks, and Super Companion (formerly Xiaohei Bot), helping you turn scattered work activity into a factual history, usable reports, and follow-up actions.
 
 **This repository provides product information, usage guidance, and download links. Every installer link points directly to a Release asset in the production distribution repository, [shjiyue/xiaoheiribao](https://github.com/shjiyue/xiaoheiribao/releases). Installers are not mirrored here.**
 
-> Last verified: **September 16, 2026 (China Standard Time)**. The latest stable release is **v1.7.2**. Version-specific links remain pinned to that release; use the [latest release page](https://github.com/shjiyue/xiaoheiribao/releases/latest) for future updates. The official website still lists the WeChat Mini Program as coming soon.
+> Release and downloads verified: **September 30, 2026 (China Standard Time)**. The latest stable release is **v1.7.4**. Xiaohei Bot is now “Super Companion”; existing roles and conversations remain available. Version-specific links remain pinned to that release; use the [latest release page](https://github.com/shjiyue/xiaoheiribao/releases/latest) for future updates. Other website information was verified on **September 16, 2026**, when the WeChat Mini Program was listed as coming soon.
 
 ## Contents
 
 - [Download and install](#download)
-- [What's new in v1.7.2](#updates)
+- [What's new in v1.7.4](#updates)
 - [Product features](#features)
-- [Xiaohei Bot: your AI work partners](#bot)
+- [Super Companion (formerly Xiaohei Bot): your AI work partners](#bot)
 - [Workflow and use cases](#workflow)
 - [Screenshots](#screenshots)
 - [Privacy, data, and permissions](#privacy)
@@ -40,9 +40,9 @@ Xiaohei Daily Assistant is an AI desktop work assistant for **Windows and macOS*
 
 ## Download and install
 
-**Latest stable release: v1.7.2 · Published 2026-09-15 18:07 (China Standard Time / UTC+8)**
+**Latest stable release: v1.7.4 · Published 2026-09-30 16:37 (China Standard Time / UTC+8)**
 
-[Full release notes](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.2) · [Always check the latest release](https://github.com/shjiyue/xiaoheiribao/releases/latest)
+[Full release notes](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.4) · [Always check the latest release](https://github.com/shjiyue/xiaoheiribao/releases/latest)
 
 ### Recommended installers
 
@@ -50,9 +50,9 @@ Choose one installer for your operating system and Mac chip. Sizes are rounded t
 
 | Platform | Download | Size |
 | --- | --- | --- |
-| Windows | [XiaoheiDailyAssistant-Setup-1.7.2.exe](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-Setup-1.7.2.exe) | 165.1 MiB |
-| macOS · Apple silicon (M series) | [XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg) | 297.1 MiB |
-| macOS · Intel | [XiaoheiDailyAssistant-1.7.2-mac-x64.dmg](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-x64.dmg) | 305.0 MiB |
+| Windows | [XiaoheiDailyAssistant-Setup-1.7.4.exe](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-Setup-1.7.4.exe) | 193.7 MiB |
+| macOS · Apple silicon (M series) | [XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg) | 284.2 MiB |
+| macOS · Intel | [XiaoheiDailyAssistant-1.7.4-mac-x64.dmg](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-1.7.4-mac-x64.dmg) | 292.5 MiB |
 
 - **Windows:** Download the `.exe`, run it, and follow the installer.
 - **Mac with Apple silicon:** Choose `mac-arm64.dmg` for a Mac that lists an Apple M-series chip in About This Mac.
@@ -65,14 +65,14 @@ Use these assets if you prefer a compressed download. **Extract the ZIP first, t
 
 | Platform | Download | Size |
 | --- | --- | --- |
-| Windows | [XiaoheiDailyAssistant-Setup-1.7.2.exe.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-Setup-1.7.2.exe.zip) | 164.8 MiB |
-| macOS · Apple silicon (M series) | [XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg.zip) | 296.3 MiB |
-| macOS · Intel | [XiaoheiDailyAssistant-1.7.2-mac-x64.dmg.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-x64.dmg.zip) | 304.2 MiB |
+| Windows | [XiaoheiDailyAssistant-Setup-1.7.4.exe.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-Setup-1.7.4.exe.zip) | 193.5 MiB |
+| macOS · Apple silicon (M series) | [XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg.zip) | 283.1 MiB |
+| macOS · Intel | [XiaoheiDailyAssistant-1.7.4-mac-x64.dmg.zip](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/XiaoheiDailyAssistant-1.7.4-mac-x64.dmg.zip) | 291.4 MiB |
 
 ### Verify download integrity
 
-- Original installers and related assets: [SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/SHA256SUMS.txt).
-- The three ZIP-wrapped installers above: [INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/INSTALLER-ZIP-SHA256SUMS.txt).
+- Original installers and related assets: [SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/SHA256SUMS.txt).
+- The three ZIP-wrapped installers above: [INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.4/INSTALLER-ZIP-SHA256SUMS.txt).
 
 <details>
 <summary>Show SHA-256 hashes and verification commands</summary>
@@ -81,20 +81,20 @@ These values come from the release's GitHub asset metadata.
 
 | File | SHA-256 |
 | --- | --- |
-| `XiaoheiDailyAssistant-Setup-1.7.2.exe` | `6a8dd72d264f703fbcc31686073e924b09c60a461795aba59cbb3be1aca30ec6` |
-| `XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg` | `fc4c57b0b35bd06621ee4527048e3a393887f4b4b51d354c3e9719afd4e5c418` |
-| `XiaoheiDailyAssistant-1.7.2-mac-x64.dmg` | `8b442e2af6148cc6ace35db5f70e5e035cee5e53cac4176e814b783827426835` |
+| `XiaoheiDailyAssistant-Setup-1.7.4.exe` | `4f8966a71881107e848de05d74e63cefeaac5fd6af6e723d7e161f67af4b147e` |
+| `XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg` | `d79a800c27a1c2f9f1aa4e1181e4871af13fcc0b08718be0ce79913f3c326a19` |
+| `XiaoheiDailyAssistant-1.7.4-mac-x64.dmg` | `09683e8eb66d26b0f2d01c82e9115381742fe0be6691ec4bbde8a64d506fc923` |
 
 Windows PowerShell, from your download directory:
 
 ```powershell
-Get-FileHash .\XiaoheiDailyAssistant-Setup-1.7.2.exe -Algorithm SHA256
+Get-FileHash .\XiaoheiDailyAssistant-Setup-1.7.4.exe -Algorithm SHA256
 ```
 
 macOS, from your download directory (Apple silicon example):
 
 ```bash
-shasum -a 256 XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg
+shasum -a 256 XiaoheiDailyAssistant-1.7.4-mac-arm64.dmg
 ```
 
 Compare the output with the table or the appropriate checksum file. For ZIP-wrapped installers, use the ZIP checksum list.
@@ -103,7 +103,11 @@ Compare the output with the table or the appropriate checksum file. For ZIP-wrap
 
 <a id="updates"></a>
 
-## What's new in v1.7.2
+## What's new in v1.7.4
+
+According to the official [v1.7.4 release notes](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.4), Xiaohei Bot is now “Super Companion”; existing roles and conversations remain available. See the release notes for the full list of changes.
+
+### Previous updates in v1.7.2
 
 The following notes are reproduced from the production repository's [v1.7.2 release](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.2).
 
@@ -164,13 +168,13 @@ Local image compression, PDF compression, and milestones do not consume credits.
 
 ### WeChat Mini Program — coming soon
 
-The planned Mini Program will provide access to timelines, reports, application statistics, heatmaps, record search, tasks, and sharing. **As of this README's verification date, the website still labels it coming soon. It is not presented here as an available mobile app download.**
+The planned Mini Program will provide access to timelines, reports, application statistics, heatmaps, record search, tasks, and sharing. **When the website information was verified on September 16, 2026, it was labeled coming soon. It is not presented here as an available mobile app download.**
 
 <a id="bot"></a>
 
-## Xiaohei Bot: your AI work partners
+## Super Companion (formerly Xiaohei Bot): your AI work partners
 
-Xiaohei Bot connects work history, documents, conversations, tools, and tasks. Describe a role in a sentence or add a suggested assistant, then give writing, research, programming, and everyday work to partners with different specialties.
+Super Companion (formerly Xiaohei Bot) connects work history, documents, conversations, tools, and tasks. Describe a role in a sentence or add a suggested assistant, then give writing, research, programming, and everyday work to partners with different specialties.
 
 | Capability | What you can do |
 | --- | --- |
@@ -218,7 +222,7 @@ Learn more: [Xiaohei Bot product page](https://www.xiaoheiribao.com/bot/) · [Xi
 
 ## Screenshots
 
-These screenshots come from the official website and are stored in this repository. Interfaces may vary by installed version.
+These previously saved website screenshots do not show the latest v1.7.4 interface. “Xiaohei Bot” is now “Super Companion”; refer to your installed version for the current interface.
 
 ![Xiaohei Daily Assistant: today's work overview](assets/images/overview.png)
 
@@ -277,7 +281,7 @@ See the [policies and usage guide](https://www.xiaoheiribao.com/docs/manual/chap
 3. **Set recording scope:** Configure intervals, monitors, excluded applications and websites, and idle pause rules before starting recording.
 4. **Check your records:** After working for a while, review Today's Work and the Work Timeline to confirm records, summaries, and categories.
 5. **Create your first report:** Select a date range, template, language, and model. Check the result, then save, copy, or export it.
-6. **Create a Bot:** Choose a role and describe the task and expected output. Configure a shared workspace in Bot Settings if your Bots need common materials.
+6. **Create a Super Companion (formerly Xiaohei Bot):** Choose a role and describe the task and expected output. Configure a shared workspace in Bot Settings if your Bots need common materials.
 
 Tutorials: [Quick start](https://www.xiaoheiribao.com/docs/manual/chapter-2) · [Core features](https://www.xiaoheiribao.com/docs/manual/chapter-3) · [Practical tutorials](https://www.xiaoheiribao.com/docs/manual/chapter-5).
 
@@ -315,7 +319,7 @@ Check the recording switch, system permissions, idle state, exclusions, monitor 
 
 ### v1.7.1
 
-The production repository also retains **v1.7.1, published September 15, 2026**. Prefer v1.7.2 for a new installation; use the original assets below when you specifically need the older version.
+The production repository also retains **v1.7.1, published September 15, 2026**. Prefer v1.7.4 for a new installation; use the original assets below when you specifically need the older version.
 
 | Platform | Download | Size |
 | --- | --- | --- |
